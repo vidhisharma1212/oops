@@ -17,6 +17,9 @@ class Programmer(Employee):
 
     def getSalary(self):
         print("There is not salary")
+    def takeBreath(self):
+        super().takeBreath()
+        print("I am breathing++...")
 
 p= Person()
 p.takeBreath()
